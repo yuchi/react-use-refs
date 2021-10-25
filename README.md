@@ -23,10 +23,15 @@ return <div ref={cardRef}> ... </div>;
 ```
 
 If you want to have multiple ref types, then you can pass a tuple and have it spread onto the created refs:
-
+x
 ```tsx
 const [cardRef, inputRef] = useRefs<[HTMLDivElement, HTMLInputElement]>();
 ```
+
+## Credits
+
+- Thanks to @drcmda for stating his need for such an API.
+- Thanks to @Andarist for the initial TypeScript types definition.
 
 ## License
 
