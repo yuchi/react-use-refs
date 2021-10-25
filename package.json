@@ -1,0 +1,26 @@
+{
+  "name": "react-use-refs",
+  "description": "Hook to create multiple refs in a single call",
+  "version": "1.0.0",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.esm.js",
+  "typings": "src/index.d.ts",
+  "author": "Pier Paolo Ramon <ramonpierre@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "package.json",
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "rollup --config"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.32",
+    "react": "^17.0.2",
+    "rollup": "^2.58.1"
+  }
+}
