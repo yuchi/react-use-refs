@@ -14,7 +14,19 @@ const [someRef, anotherRef] = useRefs();
 
 ## TypeScript support
 
-This library
+This library supports TypeScript and should work exactly as `React.useRef` does.
+
+```tsx
+const [cardRef, cardBodyRef] = useRefs<HTMLDivElement>();
+
+return <div ref={cardRef}> ... </div>;
+```
+
+If you want to have multiple ref types, then you can pass a tuple and have it spread onto the created refs:
+
+```tsx
+const [cardRef, inputRef] = useRefs<[HTMLDivElement, HTMLInputElement]>();
+```
 
 ## License
 
