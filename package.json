@@ -1,7 +1,7 @@
 {
   "name": "react-use-refs",
   "description": "Hook to create multiple refs in a single call",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.umd.js",
   "module": "dist/index.esm.js",
   "typings": "src/index.d.ts",
